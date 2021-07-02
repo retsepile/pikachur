@@ -1,0 +1,32 @@
+body {
+  background-image: url("./img.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+h1 {
+  color: red;
+}
+
+button {
+  background-color: violet;
+  margin: 25px;
+  color: red;
+  border: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: lime;
+  color: black;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
